@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&family=Poppins:wght@500;600&family=Roboto+Slab:wght@400;500;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(./src/img/bgwhite.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Header {
+  font-family: Verdana;
+  letter-spacing: 2.5px;
+  text-align: left;
+}
+.headwelcome {
+  background-color: yellow;
+  color: rgb(255, 51, 0);
+  font-weight: bolder;
+  padding-block: 10.5px ;
+ padding-left: 5px;
+ padding-right: 5px;
+  border-radius: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 100px;
+  height: 60px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #0077ff;
+}
+.teamcard {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.card {
+  min-width: 170px;
+  width: 300px;
+  margin-top: 20px;
+  border: 2px solid #40513B;
+  border-radius: 12px;
+  background-color: #EDF1D6;
+}
+.card_img {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  background-color: #9DC08B;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card_img img {
+  width: 100px;
+  height: 100px; 
+  border-radius: 50%; 
+  border: 2px solid #40513B;
+}
+.utama {
+  padding-left: 10px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#9DC08B, #EDF1D6);
+}
+.utama h2 {
+  margin-top: 10px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: #40513B;
+}
+.utama p {
+  font-family: 'Noto Sans'; 
+  font-weight: 500;
+  color: #40513B;
+}
+.card_list {
+  margin: 10px;
+  margin-top: 0;
+  font-family: 'Poppins';
+}
+.card_lists {
+  display: flex;
+}
+.card_lists h4 {
+  color: #40513B;
+}
+.card_lists p {
+  margin-left: 5px;
+}
+@media screen and (max-width: 624px) {
+.teamcard {
+  display: block;
+}
+.card {
+  margin-left: 10%;
+}
+nav {
+  display: none;
+  margin-top: 60px;
+  width: 250px;
+  border-right: 1px solid #e2e2e2;
+  height: 100%;
+  position: fixed;
+  background-color: white;
+  left: 0;
+  margin-top: 91px;
+  z-index: 1;
+}
+
+}
