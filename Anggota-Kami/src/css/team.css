@@ -29,8 +29,6 @@ ul {
   background-color: #333333;
   display: flex;
   justify-content: center;
-  position: sticky;
-  position: -webkit-sticky;
   top: 100px;
   height: 60px;
 }
@@ -38,7 +36,10 @@ ul {
 li {
   float: left;
 }
-
+.navnew {
+  position: sticky;
+  position: -webkit-sticky;
+}
 li a {
   display: block;
   color: white;
