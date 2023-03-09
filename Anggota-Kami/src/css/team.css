@@ -63,6 +63,7 @@ li a:hover {
 .card {
   min-width: 170px;
   width: 300px;
+  height: 410px;
   margin-top: 20px;
   border: 2px solid #40513B;
   border-radius: 12px;
